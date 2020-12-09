@@ -4,7 +4,7 @@
 ```
 
 module "vpc" {
-    source = "Aizhamal2312/vpc/google"
+    source = "Aizhamal2312/vpc11/google"
     vpc_name = "test"
     firewall_name = "http-allow"
     public-subnet1-name = "public-subnet1" 
